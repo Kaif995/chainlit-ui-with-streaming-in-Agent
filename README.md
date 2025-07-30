@@ -121,10 +121,3 @@ This project demonstrates how to create a Chainlit application that leverages an
 *   **Streaming Issues:** If the response is not streaming correctly, check the `stream_events` iterator and ensure that `ResponseTextDeltaEvent` objects are being processed correctly.  Also verify your API endpoint supports streaming.
 *   **Rate Limiting:** If you encounter rate limiting errors, implement appropriate retry mechanisms and consider using a rate limiting library.
 
-## Contributing
-
-Contributions are welcome! Please submit a pull request with your changes.
-
-## License
-
-[Specify your project license here, e.g., MIT]
