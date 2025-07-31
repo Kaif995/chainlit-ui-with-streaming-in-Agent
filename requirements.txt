@@ -406,7 +406,7 @@ protobuf==5.29.5
     # via
     #   googleapis-common-protos
     #   opentelemetry-proto
-pydantic==2.10.1
+pydantic==2.11.7
     # via
     #   anthropic
     #   chainlit
@@ -437,7 +437,7 @@ python-multipart==0.0.18
     #   chainlit
     #   mcp
 python-socketio==5.13.0
-    
+   
     # via mcp
 pyyaml==6.0.2
     # via huggingface-hub
