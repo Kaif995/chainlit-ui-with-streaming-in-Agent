@@ -437,8 +437,7 @@ python-multipart==0.0.18
     #   chainlit
     #   mcp
 python-socketio==5.13.0
-    # via chainlit
-pywin32==311
+    
     # via mcp
 pyyaml==6.0.2
     # via huggingface-hub
