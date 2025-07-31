@@ -406,7 +406,7 @@ protobuf==5.29.5
     # via
     #   googleapis-common-protos
     #   opentelemetry-proto
-pydantic==2.11.7
+pydantic==2.10.1
     # via
     #   anthropic
     #   chainlit
