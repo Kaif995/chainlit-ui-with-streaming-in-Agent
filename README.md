@@ -1,7 +1,7 @@
 # Chainlit Agent with External LLM (Gemini)
 
 This project demonstrates how to create a Chainlit application that leverages an external Large Language Model (LLM), specifically Google's Gemini, using an OpenAI-compatible API endpoint.  It utilizes the `agents` library for agent management and streaming responses.
-
+ 
 ## Features
 
 *   **Chainlit Integration:**  Uses Chainlit for a user-friendly chat interface.
@@ -120,4 +120,5 @@ This project demonstrates how to create a Chainlit application that leverages an
 *   **Dependency Issues:**  Ensure that all required dependencies are installed correctly. If using Poetry, try running `poetry update`.
 *   **Streaming Issues:** If the response is not streaming correctly, check the `stream_events` iterator and ensure that `ResponseTextDeltaEvent` objects are being processed correctly.  Also verify your API endpoint supports streaming.
 *   **Rate Limiting:** If you encounter rate limiting errors, implement appropriate retry mechanisms and consider using a rate limiting library.
+
 
