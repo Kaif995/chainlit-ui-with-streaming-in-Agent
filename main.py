@@ -1,4 +1,4 @@
-import os
+import os 
 from dotenv import load_dotenv
 from openai.types.responses import ResponseTextDeltaEvent
 from openai import AsyncOpenAI
